@@ -135,8 +135,8 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(text="Join Channel 1", url=client.invitelink),
-            InlineKeyboardButton(text="Join Channel 2", url=client.invitelink2),
+            InlineKeyboardButton(text="𝗔𝗡𝗜𝗠𝗘🌟𝗛𝗨𝗕", url=client.invitelink),
+            InlineKeyboardButton(text="𝙑𝙋𝙎|𝗥𝗗𝗣|𝗗𝗼𝗺𝗮𝗶𝗻𝘀 ☁️", url=client.invitelink2),
         ]
     ]
     try:
@@ -240,8 +240,3 @@ async def delete_files(messages, client, k):
 
 
 
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
