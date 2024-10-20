@@ -40,7 +40,7 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning("Bot Can't Export Invite Link From Force Sub Channel !")
                 self.LOGGER(__name__).warning(f"Please Double Check The FORCE_SUB_CHANNEL Value And Make Sure Bot Is Admin In Channel With Invite Users Via Link Permission, Current Force Sub Channel Value: {FORCE_SUB_CHANNEL}")
-                self.LOGGER(__name__).info("\nBot Stopped. https://t.me/MadflixBots_Support For Support")
+                self.LOGGER(__name__).info("\nBot Stopped. https://t.me/ContactM_ebot For Support")
                 sys.exit()
         if FORCE_SUB_CHANNEL2:
             try:
@@ -53,7 +53,7 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning("Bot Can't Export Invite Link From Force Sub Channel !")
                 self.LOGGER(__name__).warning(f"Please Double Check The FORCE_SUB_CHANNEL2 Value And Make Sure Bot Is Admin In Channel With Invite Users Via Link Permission, Current Force Sub Channel Value: {FORCE_SUB_CHANNEL2}")
-                self.LOGGER(__name__).info("\nBot Stopped. https://t.me/MadflixBots_Support For Support")
+                self.LOGGER(__name__).info("\nBot Stopped. https://t.me/ContactM_ebot For Support")
                 sys.exit()
 
         try:
@@ -64,12 +64,12 @@ class Bot(Client):
         except Exception as e:
             self.LOGGER(__name__).warning(e)
             self.LOGGER(__name__).warning(f"Make Sure Bot Is Admin In DB Channel, And Double Check The CHANNEL_ID Value, Current Value: {CHANNEL_ID}")
-            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/MadflixBots_Support For Support")
+            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/aboutRizzx For Support")
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated By \nhttps://t.me/Madflix_Bots")
-        self.LOGGER(__name__).info(f"""ミ💖 MADFLIX BOTZ 💖彡""")
+        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated By \nhttps://t.me/aboutRizzx")
+        self.LOGGER(__name__).info(f"""⏤͟͞𝙍𝙞𝙯𝙯 """)
         self.username = usr_bot_me.username
         #web-response
         app = web.AppRunner(await web_server())
